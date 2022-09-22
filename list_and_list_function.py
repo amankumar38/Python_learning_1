@@ -1,7 +1,13 @@
-lucky_numbers = [4, 8, 15, 16, 23, 42]
+lucky_numbers = [42, 8, 23, 16, 15, 4]
 friends = ["Kevin", "Karen", "Jim", "Gorge", "Tom"]
 
+
+friends.sort()
+print(friends)
+
+lucky_numbers.sort()
 print(lucky_numbers)
+
 print(friends)
 print(lucky_numbers + friends)
 
@@ -25,3 +31,7 @@ friends.append("Jim")
 print(friends)
 
 print(friends.count("Jim"))  # print how many times item occoured in list
+
+friends2 = friends.copy() #make exact copy of list
+print(friends2)
+
