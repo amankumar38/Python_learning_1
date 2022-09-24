@@ -1,3 +1,5 @@
+from classes_objects import student
+
 name = "Mike Thompson Junior"
 age = "65"
 
@@ -19,4 +21,7 @@ for i in name:
 print(name.index("i"))
 print(name.replace("Mike", "Spike"))
 
+student1 = student("Jim", "B.tech", 5.8, False)
 
+print("Name: ", student1.name)
+print("Gpa: ", student1.gpa)

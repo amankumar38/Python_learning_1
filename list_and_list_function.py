@@ -1,7 +1,6 @@
 lucky_numbers = [42, 8, 23, 16, 15, 4]
 friends = ["Kevin", "Karen", "Jim", "Gorge", "Tom"]
 
-
 friends.sort()
 print(friends)
 
@@ -32,6 +31,24 @@ print(friends)
 
 print(friends.count("Jim"))  # print how many times item occoured in list
 
-friends2 = friends.copy() #make exact copy of list
+friends2 = friends.copy()  # make exact copy of list
 print(friends2)
 
+my_list = [0] * 5
+print(my_list)
+
+my_list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+a = my_list2[2:10]
+print("Before Slicing", my_list2)
+print("After Slicing", a)
+
+# Creating new list with square of item of list
+
+b = [i**2 for i in my_list2]
+print(b)
+# Cube
+c = [i**3 for i in my_list2]
+print(c)
+
+d = [i**4 for i in my_list2]
+print(d)
