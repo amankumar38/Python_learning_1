@@ -1,3 +1,4 @@
+# List: Ordered, Mutable, allows Duplicate elements
 lucky_numbers = [42, 8, 23, 16, 15, 4]
 friends = ["Kevin", "Karen", "Jim", "Gorge", "Tom"]
 
